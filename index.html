@@ -9,17 +9,29 @@
             background-color: GreenYellow;
             color: Blue;
             font-family: 'Verdana', Geneva, sans-serif;
-            font-weight: bold; 
+            font-weight: bold;
             text-align: center;
             margin: 0;
             height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            position: relative;
+        }
+
+        #gif-container {
+            position: absolute;
+            bottom: 0;
+            right: 0;
         }
     </style>
 </head>
 <body>
     <h1>Hi ◡̈ it's me, Margeaux</h1>
+
+    <!-- Gif at the bottom right corner -->
+    <div id="gif-container">
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2JhNzE2bnhjbTY2c21mamU3cnRzYjNhMW91b2tzamR3OGE5cTM0ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/f1belevAbI89XorHHr/giphy.gif" alt="GIF" width="150" height="150">
+    </div>
 </body>
 </html>
